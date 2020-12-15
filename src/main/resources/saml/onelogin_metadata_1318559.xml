@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://app.onelogin.com/saml/metadata/ef707c28-628a-409d-83a6-c618c86b05a5">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFzCCAv+gAwIBAgIUQ83FNb6YFdyrheZ+LFp2lnPzD4YwDQYJKoZIhvcNAQEF
+BQAwWDEjMCEGA1UECgwaV2lzaWxpY2EgSW5kaWEgcHZ0IGxpbWl0ZWQxFTATBgNV
+BAsMDE9uZUxvZ2luIElkUDEaMBgGA1UEAwwRT25lTG9naW4gQWNjb3VudCAwHhcN
+MjAxMjA4MTMxMjA1WhcNMjUxMjA4MTMxMjA1WjBYMSMwIQYDVQQKDBpXaXNpbGlj
+YSBJbmRpYSBwdnQgbGltaXRlZDEVMBMGA1UECwwMT25lTG9naW4gSWRQMRowGAYD
+VQQDDBFPbmVMb2dpbiBBY2NvdW50IDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAL/UlypZvyv7JgO9IqgbddeliBHxQOxQR1Taegw94zTudTwpYJEp65ua
+NP4YkO/M8D7lWgWElNhhwKSsvaZekuBgPmdZa9Uicd3V6hx0t6EJd6QQaIouzgT+
+OZtrTBA5YL+vHpYyaMb7WnCeObtpECVY2wr4VeTMeUIbWBieBmd4cj/IG4Si5xNE
+VJPsVdAlr0iQ3Wf7vbWNxhJ8td9Ag+YvB9xaOWomRyCCBskWWlySFi/1QzuIc5qG
+uPnpE0isb9coX3yCDVovoeIF6m2EE3U4+jaDL1EzitYCrNqJO4ETDSi3UlSBT6Ej
+YrHUDQ2/DEbLbDWppVjI7j5hB/njzP0CAwEAAaOB2DCB1TAMBgNVHRMBAf8EAjAA
+MB0GA1UdDgQWBBTFPkn0i3Q/6gYaA6bh4pPs5ZlLPzCBlQYDVR0jBIGNMIGKgBTF
+Pkn0i3Q/6gYaA6bh4pPs5ZlLP6FcpFowWDEjMCEGA1UECgwaV2lzaWxpY2EgSW5k
+aWEgcHZ0IGxpbWl0ZWQxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEaMBgGA1UEAwwR
+T25lTG9naW4gQWNjb3VudCCCFEPNxTW+mBXcq4XmfixadpZz8w+GMA4GA1UdDwEB
+/wQEAwIHgDANBgkqhkiG9w0BAQUFAAOCAQEAdQ7wzyO3uoN+NKgPbA9vcT8YabgP
+vxZ2nPnE82D+R7gZUzNdMZHcGy/lsNutHtbUcqqmF8V5JCp4WYdYBlWc8VJaPuUk
+8+d4lrjbss1Nd2wZtxXHrov9UnNTBRFAm6ab+eKnHZ+d5nE+ulMnMLCSI+9BlnDa
+MkUB5Z2hCrtQzJpuB33MS+2exg8aL4sU1gUKfQ6Eqnf8W+2U5MRFduowutSHdGT5
+ZgbVffPayuGffMxn04KRwyHPqC3c71s/LZ1gVcP+10pOXnsWK6LGCmzcCRTHL84m
+uG/J5mqgUhcLMQdDOiFtT0mYo7RYvNC3LxgZ86DN3BMgHUWl6fF1mqV61g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wisilica-india-pvt-limited.onelogin.com/trust/saml2/http-redirect/slo/1318559"/>
+    
+      <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wisilica-india-pvt-limited.onelogin.com/trust/saml2/http-redirect/sso/ef707c28-628a-409d-83a6-c618c86b05a5"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wisilica-india-pvt-limited.onelogin.com/trust/saml2/http-post/sso/ef707c28-628a-409d-83a6-c618c86b05a5"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://wisilica-india-pvt-limited.onelogin.com/trust/saml2/soap/sso/ef707c28-628a-409d-83a6-c618c86b05a5"/>
+  </IDPSSODescriptor>
+</EntityDescriptor>
